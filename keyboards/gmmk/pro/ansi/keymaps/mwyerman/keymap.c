@@ -90,5 +90,5 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 #endif // ENCODER_ENABLE
 
 void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
-    rgb_matrix_set_color_all(255, 255, 255);
+    rgb_matrix_set_color_all(128, 128, 128);
 }
